@@ -1,0 +1,36 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de log
+*.log
+
+# Diretório de dependências
+venv/
+env/
+
+# Arquivos gerados pelo editor
+.vscode/
+.idea/
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos de cache
+*.pyc
+*.swp
+*.swo
+
+# Outros arquivos e diretórios
+.DS_Store
+*.bak
+*.tmp
+*.tmp.*
+*.~lock.*
